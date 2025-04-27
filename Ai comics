@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="O‘zbek tilida AI komiks yaratish platformasi">
+    <meta name="keywords" content="AI komiks, o‘zbek komiks, bepul komiks yaratish, komiks generatori">
+    <title>AI Komiks Yaratuvchi</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>AI Komiks Yaratuvchi</h1>
+        <p>O‘zbek tilida hikoya kiriting va 35 ta komiks paneli oling!</p>
+    </header>
+    <main>
+        <section>
+            <textarea id="story" placeholder="Hikoyangizni kiriting (masalan, Superqahramon shaharda jang qiladi)" rows="6" cols="50"></textarea>
+            <input type="text" id="promocode" placeholder="Promokod kiriting (masalan, shohrux)">
+            <button onclick="generateComics()">Komiks Yaratish</button>
+            <button onclick="subscribe()">Premium Obuna</button>
+       Verdana
+        </section>
+        <section id="gallery"></section>
+    </main>
+    <footer>
+        <p>&copy; 2025 AI Komiks Yaratuvchi. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
